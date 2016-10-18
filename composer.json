@@ -1,0 +1,24 @@
+{
+  "name": "davidcwhitfield/mailchimp",
+  "description": "MailChimp V3 API Wrapper",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Curtis-Whitfield ",
+      "email": "david@curtis-whitfield.co.uk"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "guzzlehttp/Guzzle": "~6.0"
+  },
+  "require-dev": {
+    "phpunit": "5.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "DavidWhitfield\\MailChimp\\": "src"
+    }
+  }
+}
